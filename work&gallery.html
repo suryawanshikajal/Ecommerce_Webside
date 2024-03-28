@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Wrk & gallery</title>
+<style>
+    .centered {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 46px;
+        
+      }
+      h1{
+        font-family: 'Courier New', Courier, monospace;
+      }
+      .content{
+        width:100%;
+        height:100%;
+        top:0;
+        left:0;
+        position:absolute;
+        background-color: rgba(0,0,0,0,6);
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        opacity: 0;
+        transition:0.6s;
+        color:white;
+        font-size:150%;
+      }
+      .content:hover{
+        opacity:1.0;
+      }
+      .content.p{
+        font-size: 13px;
+        color:white;
+      }
+      
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light ">
+    
+        <div class="container-fluid">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbaraid">
+            <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbaraid">
+            <ul class="navbar-nav text-center ml-auto">
+                <li class="nav-item">
+                    <a href="EventWebsite.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="work&gallery.html" class="nav-link">Work & Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="BudgetCalculator.html" class="nav-link">Budget Calculator</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+            
+        </div>
+     </nav>
+    <div class="container-fluid">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" style="width:100%">
+        <h1 class="centered">WORK & GALLERY</h1>
+    </div>
+
+    <div class="row no-gutters gallery">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                <img src="https://watermark.lovepik.com/photo/20211122/large/lovepik-people-resting-on-the-grass-picture_500704341.jpg" class="img-fluid">
+                <div class="content">
+                <p>REST ON THE NATURE</p>
+              </div>
+             </a>
+        </div>
+    
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+            
+               <img src="https://www.brides.com/thmb/jLZzNyb-hnHeyYrBxwzQAY5ZZns=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/sq-24fb345c0e6b47d3847cd795ca4ab43b.jpg" class="img-fluid">
+               <div class="content">
+                <p>PREPARATION</p>
+              </div>
+            </a>
+       </div>
+    
+       <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+       <img src="https://media.istockphoto.com/id/1356260793/photo/big-group-portrait-of-diverse-young-people-together-outdoors.jpg?s=612x612&w=0&k=20&c=fuWCO2KWu-ksRYSvSCKx8zXMXmBcFcSky3zAa5BtlnQ=" class="img-fluid">
+           <div class="content">
+            <p>FUNNY JOKES</p>
+          </div>
+        </a>
+       </div>
+    
+       <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+           <img src="https://c1.wallpaperflare.com/preview/182/167/747/glass-wine-glass-wine-hand.jpg" class="img-fluid">
+           <div class="content">
+            <p>MY FRIENDS</p>
+          </div>
+        </a>
+       </div>
+    
+       <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+           <img src="https://www.theknot.com/tk-media/images/8fc849ff-0f0d-42c5-ad86-52e120fa8aee" class="img-fluid">
+           <div class="content">
+            <p>DILICIOUS CAKE</p>
+          </div>
+        </a>
+       </div>
+    
+       <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+           <img src="https://images.squarespace-cdn.com/content/v1/62838cae94746f6f96ef07ae/1660036822308-HLV23LUXMSEJ8XZOQE62/IMG_1591+%281%29.JPG" class="img-fluid">
+           <div class="content">
+            <p>FUNNY BOUQUET</p>
+          </div>
+        </a>
+       </div>
+      </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>
